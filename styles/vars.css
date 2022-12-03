@@ -1,0 +1,16 @@
+:root {
+    --color-header: #2D2D2D;
+    --color-h1: #3E3E3D;
+    --color-default: #000000;
+    --color-second: #FFFFFF;
+    --color-footer: #777E89;
+
+    --background-first-screen: #FFDDA7;
+    --background-files: #3E3E3D;
+    --background-btn: #C4C4C4;
+    --background-btn-active: #DC911B;
+
+    --font-main: 'Roboto';
+    --font-second: 'Montserrat';
+    --font-form: 'Scada';
+}

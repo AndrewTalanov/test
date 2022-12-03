@@ -1,0 +1,64 @@
+main, ul, h1, h2, h3, p {
+    margin: 0;
+}
+h1, h2, h3, p, a, button, input {
+    font-family: var(--font-main);
+    color: var(--color-default);
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 120%;
+}
+ul {
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+button, a {
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.btn--hover:hover {
+    background-color: #DC911B;
+    color: var(--color-second);
+}
+.arrow--hover:hover {
+    background-color: inherit;
+}
+.arrow--hover:hover img {
+    -webkit-filter: invert(59%) sepia(78%) saturate(506%) hue-rotate(355deg) brightness(90%) contrast(90%);
+            filter: invert(59%) sepia(78%) saturate(506%) hue-rotate(355deg) brightness(90%) contrast(90%);
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1060px) {
+    .container {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 870px) {
+    h2 {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        width: 100%;
+        padding: 0 20px;
+    }
+}

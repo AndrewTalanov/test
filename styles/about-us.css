@@ -1,0 +1,42 @@
+.about-us {
+    padding: 190px 0 260px 0;
+    background: 80% 0 / auto url(../img/about-us-people.png) no-repeat, var(--background-first-screen);
+}
+.about-us__title {
+    color: var(--color-h1);
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
+}
+@media screen and (max-width: 1440px) {
+    .about-us {
+        background: 100% 0 / auto url(../img/about-us-people.png) no-repeat, var(--background-first-screen);
+    }   
+}
+@media screen and (max-width: 1290px) {
+    .about-us__title {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 1220px) {
+    .about-us {
+        background: 45vw 0 / auto url(../img/about-us-people.png) no-repeat, var(--background-first-screen);
+        padding: 100px 0 160px 0;
+    }
+    .about-us__title {
+        font-size: 32px;
+        text-align: center;
+    }   
+}
+@media screen and (max-width: 680px) {
+    .about-us {
+        background: var(--background-first-screen);
+        padding: 100px 0 160px 0;
+    }
+}
+@media screen and (max-width: 520px) {
+    .about-us {
+        padding: 100px 0 160px 0;
+    }
+}

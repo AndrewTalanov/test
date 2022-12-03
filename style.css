@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto:wght@300;400;700&family=Scada&display=swap');
+
+@import url(./styles/vars.css);
+@import url(./styles/default.css);
+@import url("./styles/header.css");
+@import url("./styles/about-us.css");
+@import url("./styles/our-services.css");
+@import url("./styles/files.css");
+@import url("./styles/project.css");
+@import url("./styles/news.css");
+@import url("./styles/feedback.css");
+@import url("./styles/our-clients.css");
+@import url("./styles/articles.css");
+@import url("./styles/footer.css");
+
