@@ -48,6 +48,7 @@
     margin-left: 56%;
     position: relative;
     top: -15px;
+    z-index: 1;
 }
 .files__swiper-btns {
     display: -webkit-box;
